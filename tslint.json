@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules/**/*.ts", "doczrc.js", "rollup.config.js"]
+  },
+  "rules": {
+    "max-classes-per-file": false,
+    "no-console": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": true,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "no-empty-interface": false,
+    "triple-equals": false,
+    "prefer-for-of": false
+  }
+}
